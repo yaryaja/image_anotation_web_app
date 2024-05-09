@@ -1,0 +1,54 @@
+.authentication-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 243, 246);
+}
+
+.authentication-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+.authentication-card .form-control {
+    border-radius: 20px;
+}
+
+.authentication-card .card-body {
+    padding: 2rem;
+}
+
+.authentication-card .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.authentication-card input[type="email"],
+.authentication-card input[type="password"] {
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.authentication-card .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.authentication-card .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.authentication-card .btn-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.authentication-card .btn-link:hover {
+    color: #0056b3;
+}
+
+
+

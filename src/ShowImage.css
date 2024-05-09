@@ -1,0 +1,28 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid with minimum width of 300px */
+    gap: 20px; /* Gap between grid items */
+  }
+  
+  .image-item {
+    overflow: hidden;
+    border: 2px solid black; /* Add black border around each image */
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease; /* Add transition effect for hover */
+  }
+  
+  .image-item img:hover {
+    transform: scale(1.05); /* Increase size on hover */
+  }
+  

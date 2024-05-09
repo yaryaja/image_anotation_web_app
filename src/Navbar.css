@@ -1,0 +1,54 @@
+/* Navbar.css */
+
+.navbar {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+}
+
+.navbar-collapse.collapse {
+    display: none;
+}
+
+.navbar-collapse.collapse.show {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-dark .navbar-toggler-icon:before {
+    background-color: #fff;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav .nav-item {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
